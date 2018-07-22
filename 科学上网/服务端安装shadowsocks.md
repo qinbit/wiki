@@ -17,5 +17,5 @@
         "method":"aes-256-cfb",  
         "fast_open":false  
     }
-5. 启动服务
+5. 启动服务  
     ssserver -c /etc/shadowsocks/config.json -d start (stop 停止；restart 重启)  
