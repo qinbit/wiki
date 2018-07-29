@@ -1,2 +1,4 @@
 # 修改主机名
-    hostnamectl set-hostname newName
+```
+hostnamectl set-hostname newName
+```
