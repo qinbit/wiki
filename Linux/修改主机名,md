@@ -1,5 +1,5 @@
 # 修改主机名
 
-```
+```shell
 hostnamectl set-hostname newName
 ```
