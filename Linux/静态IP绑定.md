@@ -21,5 +21,5 @@ DNS2="114.114.115.115"
 
 重启网卡
 ```
-
+systemctl restart network
 ```
