@@ -13,4 +13,6 @@
 | -verbose:gc | 展示每个GC事件的信息 |
 | -verbose:jni | 展示JNI调用信息 |
 | -XX:MaxDirectMemorySize=size | 为NIO的direct-buffer分配时指定最大的内存大小。默认是0，意思是JVM自动选择direct-buffer的大小。|
+| -XX:MetaspaceSize | 初始空间大小 |
+| -XX:MaxMetaspaceSize | 最大空间，默认是没有限制的 | 
 
