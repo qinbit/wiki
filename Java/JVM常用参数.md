@@ -2,6 +2,7 @@
 
 | 参数 | 说明 |
 | ---- | ---- |
+| -Xmn | 年轻代大小（eden+ 2 survivor space），Sun官方推荐配置为整个堆的3/8 |
 | -Xms | 设置初始的堆大小 |
 | -Xmx | 设置最大的内存分配大小，一般的服务端部署，-Xms和-Xmx设置为同样大小 |
 | -Xss | 设置thread stack大小，Linux/x64 (64-bit): 1024 KB |
