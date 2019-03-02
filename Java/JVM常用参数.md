@@ -14,5 +14,5 @@
 | -verbose:jni | 展示JNI调用信息 |
 | -XX:MaxDirectMemorySize=size | 为NIO的direct-buffer分配时指定最大的内存大小。默认是0，意思是JVM自动选择direct-buffer的大小。|
 | -XX:MetaspaceSize | 初始空间大小 |
-| -XX:MaxMetaspaceSize | 最大空间，默认是没有限制的 | 
+| -XX:MaxMetaspaceSize | 最大空间，默认是没有限制的。 经测试该参数没有生效，从默认配置可以推测官方并不建议配置元数据区的最大值 | 
 
