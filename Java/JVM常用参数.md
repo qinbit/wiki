@@ -27,7 +27,7 @@
 | -XX:+UseConcMarkSweepGC | 使用ParNew+CMS+Serial Old收集器组合 | ParNew+CMS+Serial Old | 1.5 |
 | -XX:+UseParallelGC | 使用Parallel+Serial Old收集器组合 | Parallel+Serial Old | 1.4 |
 | -XX:+UseParallelOldGC | 使用Parallel+Parallel Old收集器组合 | Parallel+Parallel Old | 1.6 |
-| -XX:+UseG1GC | 使用 Garbage First (G1) 收集器 | G1 | 1.7 Update 14 |
-| -XX:MaxGCPauseMillis | 设置最大GC 暂停时间 | G1 | 1.7 Update 14 |
+| -XX:+UseG1GC | 使用 Garbage First (G1) 收集器 | G1 | 1.7 |
+| -XX:MaxGCPauseMillis | 设置最大GC 暂停时间 | G1 | 1.7 |
 | 
 
