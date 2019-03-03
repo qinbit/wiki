@@ -28,7 +28,7 @@
 | -XX:+UseConcMarkSweepGC | 使用ParNew+CMS+Serial Old收集器组合 | ParNew+CMS+Serial Old | 1.5 |
 | -XX:+UseParallelGC | 使用Parallel+Serial Old收集器组合 | Parallel+Serial Old | 1.4 |
 | -XX:+UseParallelOldGC | 使用Parallel+Parallel Old收集器组合 | Parallel+Parallel Old | 1.6 |
-| -XX:+UseG1GC | 使用 Garbage First (G1) 收集器 | G1/Parallel | |
+| -XX:+UseG1GC | 使用 Garbage First (G1) 收集器 | G1 | 1.7 |
 | -XX:MaxGCPauseMillis | 设置最大GC 暂停时间 | G1/Parallel | |
 | -XX:+UseAdaptiveSizePolicy | 动态调整Java堆中各区域大小以及进入老年代的年龄 | Parallel |
 | -XX:GCTimeRatio | GC时间占总时间的比率，默认99，即允许1%的GC时间 | Parallel |
