@@ -12,7 +12,14 @@
 | -verbose:class | 展示的每个class的信息 | | |
 | -verbose:gc | 展示每个GC事件的信息 | | |
 | -verbose:jni | 展示JNI调用信息 | | |
-| -XX:MaxDirectMemorySize=size | 为NIO的direct-buffer分配时指定最大的内存大小。| | |
+| -XX:MaxDirectMemorySize | 为NIO的direct-buffer分配时指定最大的内存大小。| | |
 | -XX:MetaspaceSize | 初始空间大小 | | |
 | -XX:MaxMetaspaceSize | 最大空间，默认是没有限制的。 经测试该参数没有生效 | | |
+| -XX:PrintGcDetails | 发生垃圾收集行为时，打印日志 | | |
+| -XX:SurvivorRatio | 新生代Eden区与Survivor区的空间比例，默认为8，代表 Eden:Survivor=8:1 | | |
+| -XX:+UseSerialGC | 使用Serial+Serial Old收集器组合 | Serial+Serial Old | |
+| -XX:+UseParNewGC | 使用ParNew+Serial Old收集器组合 | ParNew+Serial Old | |
+| -XX:+UseConcMarkSweepGC | 使用ParNew+CMS+Serial Old收集器组合 | ParNew+CMS+Serial Old | |
+| -XX:+UseParallelGC | 使用Parallel+Serial Old收集器组合 | Parallel+Serial Old | |
+| -XX:+UseParallelOldGC | 使用Parallel+Parallel Old收集器组合 | Parallel+Parallel Old | |
 
