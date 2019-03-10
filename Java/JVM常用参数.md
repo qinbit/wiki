@@ -9,14 +9,12 @@
 | -XX:+HeapDumpOnOutOfMemoryError | 当JVM发生OOM时，自动生成DUMP文件 | 
 | -XX:HeapDumpPath=${目录} | 表示生成DUMP文件的路径，也可以指定文件名称 | 
 | -Dproperty=value | 设置系统属性，设置后的属性可以在代码中System.getProperty方法获取到 | 
-| -verbose:class | 展示的每个class的信息 | 
 | -Xloggc:/appl/gclogs/gc.log | | 
-| -verbose:gc | 展示每个GC事件的信息 |
+| -XX:+PrintGC | 输出GC日志 |
 | -XX:+PrintGcDetails | 发生垃圾收集行为时，打印日志 |
-| -XX:+PrintGCTimeStamps | | 
-| -XX:+PrintGCDateStamps | | 
-| -verbose:jni | 展示JNI调用信息 | 
-| -XX:MaxDirectMemorySize | 为NIO的direct-buffer分配时指定最大的内存大小。| 
+| -XX:+PrintHeapAtGC | 在进行GC的前后打印出堆的信息 | 
+| -XX:+PrintGCDateStamps | 输出GC的时间戳（以日期的形式，如 2013-05-04T21:53:59.234+0800）| 
+| -XX:MaxDirectMemorySize | 为NIO的direct-buffer分配时指定最大的内存大小| 
 | -XX:MetaspaceSize | 初始空间大小 | 
 | -XX:MaxMetaspaceSize | 最大空间，默认是没有限制的。 经测试该参数没有生效 |
 | -XX:SurvivorRatio | 新生代Eden区与Survivor区的空间比例，默认为8，代表 Eden:Survivor=8:1 |
