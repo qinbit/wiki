@@ -30,5 +30,6 @@
 | -XX:MaxGCPauseMillis | 设置最大GC 暂停时间 | 
 | -XX:+UseAdaptiveSizePolicy | 动态调整Java堆中各区域大小以及进入老年代的年龄 | 
 | -XX:GCTimeRatio | GC时间占总时间的比率，默认99，即允许1%的GC时间 |
+| -XX:StringTableSize | 常量池字符串表大小，默认：1009 |
 
 
