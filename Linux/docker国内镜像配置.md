@@ -8,8 +8,8 @@ yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/d
 ```
 {
   "registry-mirrors": [
-    "https://dockerhub.azk8s.cn",
-    "https://reg-mirror.qiniu.com"
+    "https://registry.docker-cn.com",
+    "http://hub-mirror.c.163.com"
   ]
 }
 ```
