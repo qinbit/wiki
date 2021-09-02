@@ -44,3 +44,5 @@ col datestr new_value filename
 select '/data/export.'||to_char(sysdate,'yyyymmdd')||'.csv' datestr from dual;
 spool &filename
 ```
+
+from https://segmentfault.com/a/1190000022679279
